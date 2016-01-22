@@ -1,0 +1,42 @@
+{
+    "name": "node-red-contrib-webcam",
+    "version": "0.0.1",
+    "description": "Webcam Node for Node Red. Use Motion package.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/chameleonbr/node-red-contrib-webcam.git"
+    },
+    "keywords": [
+        "webcam",
+        "motion",
+        "node-red",
+        "node"
+    ],
+    "node-red": {
+        "nodes": {
+            "cam": "cam.js",
+            "cam-config": "cam-config.js"
+        }
+    },
+    "author": {
+        "name": "Andre Alexandre Avila"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/chameleonbr/node-red-contrib-webcam/issues"
+    },
+    "homepage": "https://github.com/chameleonbr/node-red-contrib-webcam#readme",
+    "dependencies": {
+        "request": "^2.67.0"
+    },
+    "maintainers": [
+        {
+            "name": "chameleonbr",
+            "email": "chameleonbr@gmail.com"
+        }
+    ]
+}
