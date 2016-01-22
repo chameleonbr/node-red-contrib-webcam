@@ -16,4 +16,9 @@ Roadmap:
 - Support other motion configuration (contrast, brightness, hue, saturation)
 - track camera movement
 
+
+
 Any help is welcome.
+
+
+![Example](https://github.com/chameleonbr/node-red-examples/raw/master/images/Node-RED_motion_event.png "Example")
